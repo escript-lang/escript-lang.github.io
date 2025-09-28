@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    color: #428a25;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    padding: 20px;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.greetingBlock {
+    width: 100%;
+    background-color: #428a25;
+    color: #fff;
+}
+
+.codeBlock {
+    padding: 20px;
+    width: 30%;
+    background-color: #2d5325;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.comment {
+    color: #b8b8b8;
+}
+
+.keyword {
+    color: rgb(0, 255, 255);
+}
+
+.tmp {
+    color: #fff;
+}
+
+.str {
+    color: #ff9900;
+}
+
+nav {
+    background-color: #396d2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;       /* Убираем маркеры в списке */
+    padding: 0;             /* Убираем отступы по умолчанию */
+    margin: 0;
+    display: flex;          /* Выстраиваем пункты в ряд */
+    gap: 20px;              /* Расстояние между пунктами меню */
+}
+
+nav ul li {
+    cursor: pointer;        /* Курсор при наведении */
+    padding: 10px 15px;     /* Внутренние отступы */
+    font-weight: 500;       /* Жирность текста (по желанию) */
+}
+
+/* Опционально: эффект при наведении */
+nav ul li:hover {
+    background-color: #498a3b;
+}
+
+.aboutBlock {
+    display: flex; /* Используем Flexbox для расположения элементов */
+    align-items: center; /* Выравнивание по центру по вертикали */
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.h1About {
+    font-size: 20px;
+}
+
+.pAbout {
+    width: 80%;
+    font-size: 18px;
+    padding: 1.5%;
+}
+
+.content {
+    flex: 1; /* Занимает оставшееся пространство */
+}
+
+.infImg {
+    margin-left: 20px; /* Добавляем отступ между текстом и изображением */
+}
+
+.downloadBlock h1 {
+    font-size: 36px;
+}
+
+.btnDownload button{
+    transition: 0.5s;
+    margin-top: 2%;
+    width: 30%;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    background-color: #428a25;
+    color: #fff;
+}
+
+.btnDownload button:hover{
+    background-color: #36701f;
+    color: #fff;
+}
+
+.orLabel p {
+    margin-top: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sourcebtnDownload button{
+    transition: 0.5s;
+    width: 30%;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    background-color: #25658a;
+    color: #fff;
+}
+
+.sourcebtnDownload button:hover{
+    background-color: #1b5170;
+    color: #fff;
+}
