@@ -146,3 +146,101 @@ nav ul li:hover {
     background-color: #1b5170;
     color: #fff;
 }
+
+/* Поддержка для экранов шириной 1200px */
+@media (max-width: 1200px) {
+    .codeBlock {
+        width: 40%; /* Увеличиваем ширину блока с кодом */
+    }
+
+    .aboutBlock {
+        margin-left: 20%; /* Уменьшаем отступы */
+        margin-right: 20%;
+    }
+
+    nav ul {
+        gap: 15px; /* Уменьшаем расстояние между пунктами меню */
+    }
+}
+
+/* Поддержка для экранов шириной 800px */
+@media (max-width: 800px) {
+    header img {
+        padding: 10px; /* Уменьшаем отступы для изображений в заголовке */
+    }
+
+    .codeBlock {
+        width: 80%; /* Ширина блока с кодом на малых экранах */
+        margin: 0 auto; /* Центрируем блок */
+    }
+
+    .greetingBlock {
+        font-size: 18px; /* Уменьшаем размер шрифта для приветственного блока */
+    }
+
+    nav ul {
+        flex-direction: column; /* Выстраиваем пункты меню в колонку */
+        gap: 10px; /* Уменьшаем расстояние между пунктами меню */
+    }
+
+    .aboutBlock {
+        flex-direction: column; /* Выстраиваем элементы в колонку */
+        margin-left: 5%; /* Уменьшаем отступы */
+        margin-right: 5%;
+    }
+
+    .pAbout {
+        width: 100%; /* Ширина текста о нас на малых экранах */
+    }
+
+    .h1About, .pAbout {
+        text-align: center;
+    }
+
+    .btnDownload button {
+        width: 60%;
+    }
+
+    .sourcebtnDownload button {
+        width: 60%;
+    }
+}
+
+/* Поддержка для экранов шириной 500px */
+@media (max-width: 500px) {
+    .codeBlock {
+        font-size: 16px; /* Уменьшаем размер шрифта в блоке с кодом */
+    }
+
+    .btnDownload button,
+    .sourcebtnDownload button {
+        width: 100%; /* Кнопки занимают всю ширину экрана */
+        font-size: 18px; /* Уменьшаем размер шрифта кнопок */
+    }
+
+    .h1About, .pAbout {
+        text-align: center;
+    }
+
+    .downloadBlock h1 {
+        font-size: 24px; /* Уменьшаем размер заголовка в блоке загрузки */
+    }
+
+    .orLabel p {
+        font-size: 20px; /* Уменьшаем размер шрифта для метки "или" */
+    }
+
+    .aboutBlock {
+        margin-left: 0; /* Убираем отступы */
+        margin-right: 0;
+        padding: 10px; /* Добавляем отступы для лучшего восприятия */
+    }
+
+    .btnDownload button {
+        width: 60%;
+    }
+
+    .sourcebtnDownload button {
+        width: 60%;
+    }
+}
